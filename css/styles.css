@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i');
+
+html,
+body {
+    height: 100%;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 16px;
+	background:lightblue;
+	  
+	@media screen and (min-width: 900px) {
+		font-size: 18px;
+	}
+    
+	@media screen and (min-width: 1200px) {
+		font-size: 20px;
+	}
+}
+
+h1{
+	font-size:3em;
+}
+
+h2{
+	font-size:2em;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jj-mod-center{
+	font-size:1.5rem;
+}
+
+.jj-h1{
+	color:white;
+	text-shadow: 5px 5px 10px blueviolet;
+}
